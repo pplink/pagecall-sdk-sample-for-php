@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f56a79ca5a23636bcaf0b3394b6eb97e",
+    "packages": [
+        {
+            "name": "pplink/pagecall",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pplink/pagecall-sdk-php.git",
+                "reference": "d0bcf5fb5230a11158c7da1c6f202783f5936729"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pplink/pagecall-sdk-php/zipball/d0bcf5fb5230a11158c7da1c6f202783f5936729",
+                "reference": "d0bcf5fb5230a11158c7da1c6f202783f5936729",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PageCall\\": "."
+                },
+                "files": [
+                    "Constants/PageCall.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "PPLINK",
+                    "email": "support@pplink.net",
+                    "homepage": "https://www.pplink.net/"
+                }
+            ],
+            "description": "PageCall PHP SDK",
+            "homepage": "https://www.pplink.net/",
+            "keywords": [
+                "PCA",
+                "PageCall",
+                "sdk"
+            ],
+            "time": "2018-10-17T10:06:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
