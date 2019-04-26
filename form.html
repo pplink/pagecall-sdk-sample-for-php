@@ -12,14 +12,20 @@
             padding: 0px;
         }
         form {
-            overflow: hidden;
             position: absolute;
+            width: 300px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             margin: 0px;
             padding: 0px;
 
+        }
+        input {
+            display: block;
+            width: 100%;
+            height: 30px;
+            padding: 6px 7px;
         }
         button {
             position: relative;
@@ -46,13 +52,15 @@
             outline: none;
             background: #1b8486;
             padding: 14px 24px;
+            margin-top: 6px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <form method="post" action="/canvas" target="_blank">
-        <input type="hidden" name="userId" value="pagecall"/>
-        <input type="hidden" name="publicRoomId" value="test" />
+        <input name="userId" value="pagecall"/>
+        <input name="publicRoomId" value="test" style="margin-top: 6px;" />
         <button type="submit" class="btn">
             입장하기
         </button>
