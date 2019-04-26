@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        form {
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0px;
+            padding: 0px;
+
+        }
+        button {
+            position: relative;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+            will-change: color, background, opacity, border, box-shadow;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 600;
+            color: white;
+            box-shadow: transparent 6px 0px 0px 0px inset, transparent -6px 0px 0px 0px inset, transparent 0px 6px 0px 0px inset, transparent 0px -6px 0px 0px inset;
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            border-image: initial;
+            border-radius: 4px;
+            transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, background 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, border 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+            text-decoration: none;
+            outline: none;
+            background: #1b8486;
+            padding: 14px 24px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/canvas" target="_blank">
+        <input type="hidden" name="userId" value="pagecall"/>
+        <input type="hidden" name="publicRoomId" value="test" />
+        <button type="submit" class="btn">
+            입장하기
+        </button>
+    </form>
+</body>
+</html>
