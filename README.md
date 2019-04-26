@@ -5,7 +5,7 @@ The samples in this repository are fully communication applications built using 
 
 Plz, follow these steps.
 
-*Step 1* Install of dependencies
+*Step 1* Install all of dependencies
 
 
 ```
