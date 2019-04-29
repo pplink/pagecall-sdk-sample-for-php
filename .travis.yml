@@ -6,8 +6,9 @@ php:
   - 7.3
 
 before_script:
-  - php -S localhost:8000 index.php &
   - sh -c "composer install --dev --no-progress"
+  - php -S localhost:8000 index.php &
+  - sudo chomd -R 777 tests/*
 
 script: vendor/bin/phpunit tests/index.test.php
 
