@@ -102,7 +102,6 @@ fabric.properties
 *.html
 *.js
 *.jsp
-*.php
 *.rss
 *.xhtml
 
