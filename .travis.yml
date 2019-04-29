@@ -7,7 +7,7 @@ php:
   - 7.3
 
 before_script:
-  - php -S 0.0.0.0:8000 index.php
+  - php -S localhost:8000 index.php
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
 
