@@ -1,4 +1,7 @@
 ## Example PageCall SDK for php developers.
+<p align="center">
+    <a href="https://travis-ci.org/pplink/pagecall-sdk-sample-for-php"><img src="https://travis-ci.org/pplink/pagecall-sdk-sample-for-php.svg" alt="Build Status"></a>
+</p>
 
 The samples in this repository are fully communication applications built using PageCall PHP SDK.
 
