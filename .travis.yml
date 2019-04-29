@@ -5,4 +5,13 @@ php:
   - 7.1
   - 7.2
   - 7.3
+
+ENVIRONMENT=production php -S 0.0.0.0:8000 -t public index.php
+
+before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
+
+script: ./vendor/bin/phpunit tests/index.test.php
+
   

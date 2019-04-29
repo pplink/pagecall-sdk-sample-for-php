@@ -1,5 +1,12 @@
 {
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
     "require": {
-        "pplink/pagecall": "^1.0"
+        "pplink/pagecall": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
     }
 }

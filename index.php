@@ -17,9 +17,11 @@ if ($_SERVER['REQUEST_URI'] === '/canvas' && $_SERVER['REQUEST_METHOD'] === 'POS
 
         echo $pca['html'];
     } catch (\PageCall\Exceptions\PageCallSDKException $e) {
-
+        http_response_code(400);
+        echo $e->getMessage();
     } catch (\PageCall\Exceptions\PageCallAuthenticationException $e) {
-
+        http_response_code(400);
+        echo $e->getMessage();
     }
 } else {
     echo file_get_contents('./form.html');
