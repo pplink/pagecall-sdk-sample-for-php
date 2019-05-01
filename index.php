@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_URI'] === '/canvas' && $_SERVER['REQUEST_METHOD'] === 'POS
     try {
         $pageCall = new \PageCall\PageCall([
             'accessKey' => '', // Press your access key
-            'secretKey' => '' // Press your access key
+            'secretKey' => '' // Press your secret key
         ]);
 
         $pca = $pageCall->connectIn([
